@@ -1,0 +1,23 @@
+
+.blogHover{
+    transform: scale(1);
+
+   
+}
+
+.blogHover:hover>img{
+    transform: scale(1.1);
+    
+  
+    transition: all ease-in-out .5s ;
+
+}
+
+.osadaron:hover{
+    background: transparent;
+    transition: all .3s ease-in-out  ;
+
+}
+.osadaron:hover>.texthover{
+    color: white;
+}
